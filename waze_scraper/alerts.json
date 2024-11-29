@@ -1,0 +1,1352 @@
+[
+    {
+        "reportBy": "claude747",
+        "nThumbsUp": null,
+        "country": "CI",
+        "city": null,
+        "type": "JAM",
+        "subtype": "JAM_HEAVY_TRAFFIC",
+        "street": "Autopista Central",
+        "reporRating": 4,
+        "reliability": 5,
+        "location": {
+            "longitude": -70.659995,
+            "latitude": -33.447536
+        },
+        "timestamp": 1732223330000,
+        "id": "alert-757773509/c6582675-ace9-4fea-89cc-5e761a69be86",
+        "additional_info": ""
+    },
+    {
+        "reportBy": "Subsecretaria de Transportes",
+        "nThumbsUp": 11,
+        "country": "CI",
+        "city": "Santiago",
+        "type": "ROAD_CLOSED",
+        "subtype": "ROAD_CLOSED_EVENT",
+        "street": "Merced",
+        "reporRating": 0,
+        "reliability": 10,
+        "location": {
+            "longitude": -70.635303,
+            "latitude": -33.436789
+        },
+        "timestamp": 1730322008000,
+        "id": "alert-77547548/4bbab0cb-2c3a-4597-afec-a24e623dbf31",
+        "additional_info": ""
+    },
+    {
+        "reportBy": "world_s45zs666",
+        "nThumbsUp": null,
+        "country": "CI",
+        "city": "Providencia",
+        "type": "JAM",
+        "subtype": "JAM_HEAVY_TRAFFIC",
+        "street": "Av. Providencia",
+        "reporRating": 0,
+        "reliability": 5,
+        "location": {
+            "longitude": -70.633526,
+            "latitude": -33.436676
+        },
+        "timestamp": 1732223014000,
+        "id": "alert-757638755/25b13b69-0f4b-459c-81b9-ed337673c8e4",
+        "additional_info": ""
+    },
+    {
+        "reportBy": null,
+        "nThumbsUp": 2,
+        "country": "CI",
+        "city": "Santiago",
+        "type": "JAM",
+        "subtype": "JAM_HEAVY_TRAFFIC",
+        "street": "Santa Luc\u00eda",
+        "reporRating": 0,
+        "reliability": 7,
+        "location": {
+            "longitude": -70.644573,
+            "latitude": -33.441276
+        },
+        "timestamp": 1732222457000,
+        "id": "alert-757607796/3a7fcdfd-5ce3-4745-8bde-112fa257ecc1",
+        "additional_info": ""
+    },
+    {
+        "reportBy": "RoseOlivita",
+        "nThumbsUp": null,
+        "country": "CI",
+        "city": "Santiago",
+        "type": "JAM",
+        "subtype": "",
+        "street": "Arturo Prat",
+        "reporRating": 0,
+        "reliability": 6,
+        "location": {
+            "longitude": -70.647104,
+            "latitude": -33.462287
+        },
+        "timestamp": 1732222221000,
+        "id": "alert-757786006/a95f4c3c-a0b6-4e3e-8e7c-e13405e17196",
+        "additional_info": ""
+    },
+    {
+        "reportBy": null,
+        "nThumbsUp": null,
+        "country": "CI",
+        "city": "San Miguel",
+        "type": "JAM",
+        "subtype": "",
+        "street": "Gran Avenida Jos\u00e9 Miguel Carrera",
+        "reporRating": 1,
+        "reliability": 5,
+        "location": {
+            "longitude": -70.64979,
+            "latitude": -33.484645
+        },
+        "timestamp": 1732222771000,
+        "id": "alert-757816835/83be33f4-5588-49de-821d-52fbece5296a",
+        "additional_info": ""
+    },
+    {
+        "reportBy": "gersonjaimes1510aaaaaaa",
+        "nThumbsUp": 3,
+        "country": "CI",
+        "city": null,
+        "type": "JAM",
+        "subtype": "JAM_HEAVY_TRAFFIC",
+        "street": "Autopista Central",
+        "reporRating": 3,
+        "reliability": 8,
+        "location": {
+            "longitude": -70.655061,
+            "latitude": -33.476636
+        },
+        "timestamp": 1732222715000,
+        "id": "alert-757772115/7e7b29c1-0a70-4ada-badb-9384f2bd2039",
+        "additional_info": ""
+    },
+    {
+        "reportBy": null,
+        "nThumbsUp": null,
+        "country": "CI",
+        "city": "Santiago",
+        "type": "JAM",
+        "subtype": "JAM_STAND_STILL_TRAFFIC",
+        "street": "Zenteno",
+        "reporRating": 4,
+        "reliability": 5,
+        "location": {
+            "longitude": -70.652833,
+            "latitude": -33.445082
+        },
+        "timestamp": 1732223391000,
+        "id": "alert-757793616/330cde4a-d165-4587-a9b8-79f3db384797",
+        "additional_info": ""
+    },
+    {
+        "reportBy": "venezuelajajajaj",
+        "nThumbsUp": 3,
+        "country": "CI",
+        "city": "Santiago",
+        "type": "CHIT_CHAT",
+        "subtype": "",
+        "street": "Av. Manuel Antonio Matta",
+        "reporRating": 2,
+        "reliability": 10,
+        "location": {
+            "longitude": -70.635673,
+            "latitude": -33.456829
+        },
+        "timestamp": 1732221877000,
+        "id": "alert-757730435/2f7e599e-f11b-446d-b553-ec8b0fd08424",
+        "additional_info": ""
+    },
+    {
+        "reportBy": null,
+        "nThumbsUp": 5,
+        "country": "CI",
+        "city": "Santiago",
+        "type": "JAM",
+        "subtype": "JAM_STAND_STILL_TRAFFIC",
+        "street": "Av. Santa Mar\u00eda",
+        "reporRating": 3,
+        "reliability": 10,
+        "location": {
+            "longitude": -70.645184,
+            "latitude": -33.433425
+        },
+        "timestamp": 1732221767000,
+        "id": "alert-757413754/6e4edae2-a521-43a4-a2be-3dc5391fa2c2",
+        "additional_info": ""
+    },
+    {
+        "reportBy": "world_a42qcgqa",
+        "nThumbsUp": 1,
+        "country": "CI",
+        "city": "Recoleta",
+        "type": "CHIT_CHAT",
+        "subtype": "",
+        "street": "P\u00edo Nono",
+        "reporRating": 0,
+        "reliability": 7,
+        "location": {
+            "longitude": -70.635507,
+            "latitude": -33.435091
+        },
+        "timestamp": 1732223181000,
+        "id": "alert-757965728/e9e03c80-3556-4848-ac41-514e588902c1",
+        "additional_info": ""
+    },
+    {
+        "reportBy": "rocko_1502",
+        "nThumbsUp": 1,
+        "country": "CI",
+        "city": "Santiago",
+        "type": "JAM",
+        "subtype": "JAM_HEAVY_TRAFFIC",
+        "street": "Av. Presidente Balmaceda",
+        "reporRating": 2,
+        "reliability": 7,
+        "location": {
+            "longitude": -70.662147,
+            "latitude": -33.430583
+        },
+        "timestamp": 1732222185000,
+        "id": "alert-757731161/2442233e-6619-43aa-8be2-3e6d1e0c05f5",
+        "additional_info": ""
+    },
+    {
+        "reportBy": "Subsecretaria de Transportes",
+        "nThumbsUp": 49,
+        "country": "CI",
+        "city": "Providencia",
+        "type": "ROAD_CLOSED",
+        "subtype": "ROAD_CLOSED_EVENT",
+        "street": "Merced",
+        "reporRating": 0,
+        "reliability": 10,
+        "location": {
+            "longitude": -70.634662,
+            "latitude": -33.436627
+        },
+        "timestamp": 1730322008000,
+        "id": "alert-77547658/92f2e0e9-d50d-48bd-b7c5-84d0bea3d82a",
+        "additional_info": ""
+    },
+    {
+        "reportBy": "LaShoraOveja",
+        "nThumbsUp": null,
+        "country": "CI",
+        "city": "Santiago",
+        "type": "JAM",
+        "subtype": "JAM_HEAVY_TRAFFIC",
+        "street": "Vivaceta",
+        "reporRating": 0,
+        "reliability": 5,
+        "location": {
+            "longitude": -70.660563,
+            "latitude": -33.430313
+        },
+        "timestamp": 1732221862000,
+        "id": "alert-757240234/5520e900-6ae2-43aa-8269-a6a57c22dbcb",
+        "additional_info": ""
+    },
+    {
+        "reportBy": "Agusgame",
+        "nThumbsUp": 3,
+        "country": "CI",
+        "city": "Santiago",
+        "type": "JAM",
+        "subtype": "JAM_HEAVY_TRAFFIC",
+        "street": "Av. Manuel Rodr\u00edguez",
+        "reporRating": 2,
+        "reliability": 8,
+        "location": {
+            "longitude": -70.659534,
+            "latitude": -33.438682
+        },
+        "timestamp": 1732221254000,
+        "id": "alert-757164467/f547ba4e-bd53-4ad6-9477-da36ff6ed068",
+        "additional_info": ""
+    },
+    {
+        "reportBy": "world_b40iq10i",
+        "nThumbsUp": null,
+        "country": "CI",
+        "city": "Santiago",
+        "type": "JAM",
+        "subtype": "JAM_STAND_STILL_TRAFFIC",
+        "street": "Diagonal Paraguay",
+        "reporRating": 1,
+        "reliability": 7,
+        "location": {
+            "longitude": -70.642388,
+            "latitude": -33.442669
+        },
+        "timestamp": 1732223209000,
+        "id": "alert-757867276/f6e295fb-8531-4909-8566-ee647d40c11c",
+        "additional_info": ""
+    },
+    {
+        "reportBy": "Gasparfox",
+        "nThumbsUp": 14,
+        "country": "CI",
+        "city": "Santiago",
+        "type": "ROAD_CLOSED",
+        "subtype": "ROAD_CLOSED_EVENT",
+        "street": "Guardiamarina Ernesto Riquelme",
+        "reporRating": 5,
+        "reliability": 10,
+        "location": {
+            "longitude": -70.662141,
+            "latitude": -33.432091
+        },
+        "timestamp": 1727271152000,
+        "id": "alert-1720316376/c73e6515-3edf-43ef-864d-a49b3708a720",
+        "additional_info": ""
+    },
+    {
+        "reportBy": null,
+        "nThumbsUp": null,
+        "country": "CI",
+        "city": "Santiago",
+        "type": "JAM",
+        "subtype": "JAM_HEAVY_TRAFFIC",
+        "street": "Lira",
+        "reporRating": 1,
+        "reliability": 5,
+        "location": {
+            "longitude": -70.640944,
+            "latitude": -33.4437
+        },
+        "timestamp": 1732222184000,
+        "id": "alert-757810562/e5015340-f834-4d42-8888-f61e71e2bfc4",
+        "additional_info": ""
+    },
+    {
+        "reportBy": "world_h9pxepdx",
+        "nThumbsUp": 2,
+        "country": "CI",
+        "city": "Santiago",
+        "type": "JAM",
+        "subtype": "JAM_STAND_STILL_TRAFFIC",
+        "street": "Puente Ronald Wood",
+        "reporRating": 0,
+        "reliability": 7,
+        "location": {
+            "longitude": -70.642821,
+            "latitude": -33.434405
+        },
+        "timestamp": 1732221070000,
+        "id": "alert-757174144/2db0bf91-acbe-4a37-9fc2-66b0b97aa92e",
+        "additional_info": ""
+    },
+    {
+        "reportBy": null,
+        "nThumbsUp": null,
+        "country": "CI",
+        "city": null,
+        "type": "JAM",
+        "subtype": "JAM_HEAVY_TRAFFIC",
+        "street": "Acceso a Autopista Central > Norte",
+        "reporRating": 3,
+        "reliability": 5,
+        "location": {
+            "longitude": -70.65982,
+            "latitude": -33.436748
+        },
+        "timestamp": 1732222645000,
+        "id": "alert-757811625/ff758095-5b16-4dc5-b926-358216c52fc3",
+        "additional_info": ""
+    },
+    {
+        "reportBy": "jonapro2206",
+        "nThumbsUp": null,
+        "country": "CI",
+        "city": "Santiago",
+        "type": "JAM",
+        "subtype": "JAM_STAND_STILL_TRAFFIC",
+        "street": "Victoria Subercaseaux",
+        "reporRating": 5,
+        "reliability": 6,
+        "location": {
+            "longitude": -70.642961,
+            "latitude": -33.438118
+        },
+        "timestamp": 1732222403000,
+        "id": "alert-757647303/860bfad6-b551-4d18-a69a-e4241e235ad8",
+        "additional_info": ""
+    },
+    {
+        "reportBy": "FRANCOELx39GB",
+        "nThumbsUp": 14,
+        "country": "CI",
+        "city": "Recoleta",
+        "type": "HAZARD",
+        "subtype": "HAZARD_ON_ROAD_CONSTRUCTION",
+        "street": "Av. Per\u00fa",
+        "reporRating": 3,
+        "reliability": 10,
+        "location": {
+            "longitude": -70.640561,
+            "latitude": -33.420786
+        },
+        "timestamp": 1732221082000,
+        "id": "alert-757362542/9c8525dc-7bfa-4b39-8edc-8175f8829afa",
+        "additional_info": ""
+    },
+    {
+        "reportBy": "worldweb_2xf026lu",
+        "nThumbsUp": 3,
+        "country": "CI",
+        "city": "Santiago",
+        "type": "CHIT_CHAT",
+        "subtype": "",
+        "street": "Merced",
+        "reporRating": 4,
+        "reliability": 9,
+        "location": {
+            "longitude": -70.647592,
+            "latitude": -33.438119
+        },
+        "timestamp": 1732221907000,
+        "id": "alert-757438630/077cba15-f7ad-4a59-9b62-2c359a057bf0",
+        "additional_info": ""
+    },
+    {
+        "reportBy": "Subsecretaria de Transportes",
+        "nThumbsUp": 20,
+        "country": "CI",
+        "city": "Santiago",
+        "type": "ROAD_CLOSED",
+        "subtype": "ROAD_CLOSED_EVENT",
+        "street": "Irene Morales",
+        "reporRating": 0,
+        "reliability": 10,
+        "location": {
+            "longitude": -70.637123,
+            "latitude": -33.436873
+        },
+        "timestamp": 1730322008000,
+        "id": "alert-77547665/a5169a44-1b7f-4ffd-a772-cb0dfd21eb1e",
+        "additional_info": ""
+    },
+    {
+        "reportBy": null,
+        "nThumbsUp": 1,
+        "country": "CI",
+        "city": "Santiago",
+        "type": "JAM",
+        "subtype": "JAM_STAND_STILL_TRAFFIC",
+        "street": "Nueva Centenario",
+        "reporRating": 2,
+        "reliability": 6,
+        "location": {
+            "longitude": -70.655005,
+            "latitude": -33.473967
+        },
+        "timestamp": 1732223130000,
+        "id": "alert-757574501/fa1f2e56-4884-4b64-b51a-4ff72d2f6903",
+        "additional_info": ""
+    },
+    {
+        "reportBy": null,
+        "nThumbsUp": null,
+        "country": "CI",
+        "city": "Santiago",
+        "type": "HAZARD",
+        "subtype": "HAZARD_ON_ROAD_TRAFFIC_LIGHT_FAULT",
+        "street": "Maule",
+        "reporRating": 2,
+        "reliability": 5,
+        "location": {
+            "longitude": -70.635417,
+            "latitude": -33.465908
+        },
+        "timestamp": 1732222650000,
+        "id": "alert-757569365/a51a9d8f-4d5d-4a85-a981-cc456152e5dd",
+        "additional_info": ""
+    },
+    {
+        "reportBy": null,
+        "nThumbsUp": null,
+        "country": "CI",
+        "city": "Providencia",
+        "type": "JAM",
+        "subtype": "",
+        "street": "Av. Vicu\u00f1a Mackenna",
+        "reporRating": 0,
+        "reliability": 8,
+        "location": {
+            "longitude": -70.63497,
+            "latitude": -33.437796
+        },
+        "timestamp": 1732220772000,
+        "id": "alert-757430860/f5013235-d33e-4f4b-bbdf-dea27d059879",
+        "additional_info": ""
+    },
+    {
+        "reportBy": "K_Loureiro",
+        "nThumbsUp": null,
+        "country": "CI",
+        "city": "Santiago",
+        "type": "HAZARD",
+        "subtype": "HAZARD_ON_ROAD_TRAFFIC_LIGHT_FAULT",
+        "street": "Maule",
+        "reporRating": 4,
+        "reliability": 5,
+        "location": {
+            "longitude": -70.634859,
+            "latitude": -33.465842
+        },
+        "timestamp": 1732222896000,
+        "id": "alert-757554399/e17de7ed-4790-4543-8a0c-f6f36db2ef24",
+        "additional_info": ""
+    },
+    {
+        "reportBy": "RLGC81",
+        "nThumbsUp": 2,
+        "country": "CI",
+        "city": null,
+        "type": "JAM",
+        "subtype": "JAM_HEAVY_TRAFFIC",
+        "street": "Autopista Costanera Norte",
+        "reporRating": 3,
+        "reliability": 7,
+        "location": {
+            "longitude": -70.643203,
+            "latitude": -33.434044
+        },
+        "timestamp": 1732222715000,
+        "id": "alert-757624296/3fe3df9f-2f2f-4d95-bd0f-6bb550a9c32d",
+        "additional_info": ""
+    },
+    {
+        "reportBy": "gayuno",
+        "nThumbsUp": null,
+        "country": "CI",
+        "city": "Santiago",
+        "type": "HAZARD",
+        "subtype": "HAZARD_ON_SHOULDER_CAR_STOPPED",
+        "street": "V\u00edctor Manuel",
+        "reporRating": 3,
+        "reliability": 5,
+        "location": {
+            "longitude": -70.641607,
+            "latitude": -33.462922
+        },
+        "timestamp": 1732223276000,
+        "id": "alert-757798288/573d4376-a8c0-40eb-9514-9c711c6c1f66",
+        "additional_info": ""
+    },
+    {
+        "reportBy": "worldweb_9zif159h",
+        "nThumbsUp": null,
+        "country": "CI",
+        "city": "San Miguel",
+        "type": "JAM",
+        "subtype": "JAM_STAND_STILL_TRAFFIC",
+        "street": "Av. Salvador Allende",
+        "reporRating": 1,
+        "reliability": 5,
+        "location": {
+            "longitude": -70.658087,
+            "latitude": -33.490707
+        },
+        "timestamp": 1732223321000,
+        "id": "alert-757842914/2916b88b-ae46-45d6-b3e5-d2cd351fbd5d",
+        "additional_info": ""
+    },
+    {
+        "reportBy": "rafiki2510",
+        "nThumbsUp": null,
+        "country": "CI",
+        "city": "Santiago",
+        "type": "ROAD_CLOSED",
+        "subtype": "",
+        "street": "Retorno > Oriente",
+        "reporRating": 2,
+        "reliability": 5,
+        "location": {
+            "longitude": -70.651258,
+            "latitude": -33.432699
+        },
+        "timestamp": 1732221612000,
+        "id": "alert-757511472/d55333d6-a4c0-4dd5-9e75-bad0778201b8",
+        "additional_info": ""
+    },
+    {
+        "reportBy": null,
+        "nThumbsUp": 1,
+        "country": "CI",
+        "city": "Independencia",
+        "type": "HAZARD",
+        "subtype": "HAZARD_ON_SHOULDER_CAR_STOPPED",
+        "street": "An\u00edbal Pinto",
+        "reporRating": 2,
+        "reliability": 7,
+        "location": {
+            "longitude": -70.661464,
+            "latitude": -33.428275
+        },
+        "timestamp": 1732223002000,
+        "id": "alert-757549476/7f83102a-43d7-4a0d-93b6-a5d529df5282",
+        "additional_info": ""
+    },
+    {
+        "reportBy": "world_b40iq10i",
+        "nThumbsUp": null,
+        "country": "CI",
+        "city": "Santiago",
+        "type": "JAM",
+        "subtype": "",
+        "street": "Diagonal Paraguay",
+        "reporRating": 1,
+        "reliability": 5,
+        "location": {
+            "longitude": -70.640963,
+            "latitude": -33.443018
+        },
+        "timestamp": 1732223271000,
+        "id": "alert-758000490/d01ec2eb-9d49-48c4-811e-88f1b2fce0fb",
+        "additional_info": ""
+    },
+    {
+        "reportBy": "world_3v22sw0s",
+        "nThumbsUp": null,
+        "country": "CI",
+        "city": "Santiago",
+        "type": "JAM",
+        "subtype": "JAM_HEAVY_TRAFFIC",
+        "street": "Toesca",
+        "reporRating": 1,
+        "reliability": 5,
+        "location": {
+            "longitude": -70.660482,
+            "latitude": -33.453184
+        },
+        "timestamp": 1732222660000,
+        "id": "alert-757509006/a456e518-c881-4317-8f98-11b2699523ed",
+        "additional_info": ""
+    },
+    {
+        "reportBy": "Danielsking10",
+        "nThumbsUp": null,
+        "country": "CI",
+        "city": "Providencia",
+        "type": "JAM",
+        "subtype": "",
+        "street": "Bellavista",
+        "reporRating": 2,
+        "reliability": 5,
+        "location": {
+            "longitude": -70.635158,
+            "latitude": -33.434753
+        },
+        "timestamp": 1732223177000,
+        "id": "alert-757758204/1a5e6edc-9c12-4283-8560-71c7878798f2",
+        "additional_info": ""
+    },
+    {
+        "reportBy": "world_h9pxepdx",
+        "nThumbsUp": null,
+        "country": "CI",
+        "city": "Santiago",
+        "type": "JAM",
+        "subtype": "JAM_STAND_STILL_TRAFFIC",
+        "street": "Carmen",
+        "reporRating": 0,
+        "reliability": 5,
+        "location": {
+            "longitude": -70.640649,
+            "latitude": -33.453194
+        },
+        "timestamp": 1732221685000,
+        "id": "alert-757487336/0c01b1a4-99a1-40bb-bfd3-e237f407e7c7",
+        "additional_info": ""
+    },
+    {
+        "reportBy": null,
+        "nThumbsUp": 3,
+        "country": "CI",
+        "city": "Santiago",
+        "type": "JAM",
+        "subtype": "JAM_STAND_STILL_TRAFFIC",
+        "street": "Av. Manuel Rodr\u00edguez",
+        "reporRating": 1,
+        "reliability": 8,
+        "location": {
+            "longitude": -70.659258,
+            "latitude": -33.451867
+        },
+        "timestamp": 1732221618000,
+        "id": "alert-757409748/15f763ae-d9f3-4c80-8f6b-9c48ae89f007",
+        "additional_info": ""
+    },
+    {
+        "reportBy": "drivers2101",
+        "nThumbsUp": null,
+        "country": "CI",
+        "city": "Independencia",
+        "type": "JAM",
+        "subtype": "JAM_HEAVY_TRAFFIC",
+        "street": "Av. Independencia",
+        "reporRating": 4,
+        "reliability": 5,
+        "location": {
+            "longitude": -70.654752,
+            "latitude": -33.425179
+        },
+        "timestamp": 1732223414000,
+        "id": "alert-757639727/eb82b3c5-b04d-431c-87da-84015b73a164",
+        "additional_info": ""
+    },
+    {
+        "reportBy": null,
+        "nThumbsUp": 1,
+        "country": "CI",
+        "city": "Santiago",
+        "type": "HAZARD",
+        "subtype": "HAZARD_ON_SHOULDER_CAR_STOPPED",
+        "street": "Padre Felipe G\u00f3mez de Vidaurre",
+        "reporRating": 3,
+        "reliability": 6,
+        "location": {
+            "longitude": -70.655977,
+            "latitude": -33.448076
+        },
+        "timestamp": 1732222877000,
+        "id": "alert-757643411/aa640b54-8cab-4c89-8a4b-9d76fecb8f32",
+        "additional_info": ""
+    },
+    {
+        "reportBy": "mecanicojhon",
+        "nThumbsUp": null,
+        "country": "CI",
+        "city": "Santiago",
+        "type": "JAM",
+        "subtype": "JAM_HEAVY_TRAFFIC",
+        "street": "Carmen",
+        "reporRating": 2,
+        "reliability": 5,
+        "location": {
+            "longitude": -70.637003,
+            "latitude": -33.467111
+        },
+        "timestamp": 1732222855000,
+        "id": "alert-757679428/cb328c75-b218-4acc-8d41-64c25abe6d32",
+        "additional_info": ""
+    },
+    {
+        "reportBy": null,
+        "nThumbsUp": null,
+        "country": "CI",
+        "city": "Santiago",
+        "type": "HAZARD",
+        "subtype": "HAZARD_ON_SHOULDER_CAR_STOPPED",
+        "street": "San Ignacio de Loyola",
+        "reporRating": 0,
+        "reliability": 5,
+        "location": {
+            "longitude": -70.654787,
+            "latitude": -33.467756
+        },
+        "timestamp": 1732223421000,
+        "id": "alert-757852995/54b7b231-0da4-445a-8cca-585b86ff3cc5",
+        "additional_info": ""
+    },
+    {
+        "reportBy": null,
+        "nThumbsUp": 2,
+        "country": "CI",
+        "city": "Santiago",
+        "type": "JAM",
+        "subtype": "JAM_STAND_STILL_TRAFFIC",
+        "street": "Diagonal Paraguay",
+        "reporRating": 1,
+        "reliability": 7,
+        "location": {
+            "longitude": -70.635802,
+            "latitude": -33.442439
+        },
+        "timestamp": 1732222174000,
+        "id": "alert-757721253/8affe115-acf2-48be-a202-afcf58a74513",
+        "additional_info": ""
+    },
+    {
+        "reportBy": "Damian03Cool",
+        "nThumbsUp": null,
+        "country": "CI",
+        "city": "Santiago",
+        "type": "JAM",
+        "subtype": "JAM_STAND_STILL_TRAFFIC",
+        "street": "Av. Manuel Antonio Matta",
+        "reporRating": 3,
+        "reliability": 5,
+        "location": {
+            "longitude": -70.649572,
+            "latitude": -33.459533
+        },
+        "timestamp": 1732222734000,
+        "id": "alert-757688527/b50a8f43-70bd-42b7-a4f2-61da479fe787",
+        "additional_info": ""
+    },
+    {
+        "reportBy": null,
+        "nThumbsUp": null,
+        "country": "CI",
+        "city": "Independencia",
+        "type": "POLICE",
+        "subtype": "",
+        "street": "Av. Independencia",
+        "reporRating": 1,
+        "reliability": 6,
+        "location": {
+            "longitude": -70.655659,
+            "latitude": -33.421577
+        },
+        "timestamp": 1732223098000,
+        "id": "alert-757619197/f3fafaa3-eaa7-475a-bebc-25943416c53a",
+        "additional_info": ""
+    },
+    {
+        "reportBy": null,
+        "nThumbsUp": 17,
+        "country": "CI",
+        "city": "Santiago",
+        "type": "POLICE",
+        "subtype": "",
+        "street": "Av. 10 de Julio Huamachuco",
+        "reporRating": 1,
+        "reliability": 10,
+        "location": {
+            "longitude": -70.635555,
+            "latitude": -33.451755
+        },
+        "timestamp": 1732222996000,
+        "id": "alert-757658584/1a64fd83-4d13-476e-9307-630d280e3965",
+        "additional_info": ""
+    },
+    {
+        "reportBy": null,
+        "nThumbsUp": 2,
+        "country": "CI",
+        "city": null,
+        "type": "JAM",
+        "subtype": "JAM_HEAVY_TRAFFIC",
+        "street": "Autopista Central",
+        "reporRating": 2,
+        "reliability": 10,
+        "location": {
+            "longitude": -70.660996,
+            "latitude": -33.431541
+        },
+        "timestamp": 1732220417000,
+        "id": "alert-756934812/80e3c553-6269-4c2e-9403-720f456505d8",
+        "additional_info": ""
+    },
+    {
+        "reportBy": "world_b40iq10i",
+        "nThumbsUp": null,
+        "country": "CI",
+        "city": "Santiago",
+        "type": "JAM",
+        "subtype": "JAM_HEAVY_TRAFFIC",
+        "street": "Santa Luc\u00eda",
+        "reporRating": 1,
+        "reliability": 5,
+        "location": {
+            "longitude": -70.644497,
+            "latitude": -33.440027
+        },
+        "timestamp": 1732223065000,
+        "id": "alert-757723463/bf8d7f48-070e-43ad-b991-9fde9595ccd9",
+        "additional_info": ""
+    },
+    {
+        "reportBy": "Bonnii",
+        "nThumbsUp": null,
+        "country": "CI",
+        "city": "Santiago",
+        "type": "JAM",
+        "subtype": "JAM_HEAVY_TRAFFIC",
+        "street": "Carmen",
+        "reporRating": 2,
+        "reliability": 5,
+        "location": {
+            "longitude": -70.636804,
+            "latitude": -33.467847
+        },
+        "timestamp": 1732222166000,
+        "id": "alert-757587855/d98ccfbc-945a-4513-bc59-64f5e6f04353",
+        "additional_info": ""
+    },
+    {
+        "reportBy": null,
+        "nThumbsUp": null,
+        "country": "CI",
+        "city": "Recoleta",
+        "type": "JAM",
+        "subtype": "JAM_HEAVY_TRAFFIC",
+        "street": "Pur\u00edsima",
+        "reporRating": 0,
+        "reliability": 5,
+        "location": {
+            "longitude": -70.638134,
+            "latitude": -33.430826
+        },
+        "timestamp": 1732221988000,
+        "id": "alert-757463401/7bd40de1-c9d3-4d3f-9ccf-be1cbc33a24a",
+        "additional_info": ""
+    },
+    {
+        "reportBy": "yorvinSunn",
+        "nThumbsUp": 2,
+        "country": "CI",
+        "city": "Providencia",
+        "type": "JAM",
+        "subtype": "JAM_STAND_STILL_TRAFFIC",
+        "street": "Av. Vicu\u00f1a Mackenna",
+        "reporRating": 3,
+        "reliability": 7,
+        "location": {
+            "longitude": -70.633255,
+            "latitude": -33.443565
+        },
+        "timestamp": 1732221990000,
+        "id": "alert-757676576/3edf4941-cc6b-412b-a9c3-98b769fe203d",
+        "additional_info": ""
+    },
+    {
+        "reportBy": "Pepe_Rojas10",
+        "nThumbsUp": null,
+        "country": "CI",
+        "city": "Santiago",
+        "type": "JAM",
+        "subtype": "",
+        "street": "Teatinos",
+        "reporRating": 3,
+        "reliability": 5,
+        "location": {
+            "longitude": -70.655384,
+            "latitude": -33.439002
+        },
+        "timestamp": 1732223385000,
+        "id": "alert-757971367/a1089a11-e0a8-4a1c-b292-c4c2b7eabb71",
+        "additional_info": ""
+    },
+    {
+        "reportBy": "Subsecretaria de Transportes",
+        "nThumbsUp": null,
+        "country": "CI",
+        "city": "Santiago",
+        "type": "ROAD_CLOSED",
+        "subtype": "ROAD_CLOSED_EVENT",
+        "street": "Irene Morales",
+        "reporRating": 0,
+        "reliability": 6,
+        "location": {
+            "longitude": -70.636669,
+            "latitude": -33.437106
+        },
+        "timestamp": 1730322009000,
+        "id": "alert-77547725/d976f798-6582-4e19-97eb-0d6143e00f44",
+        "additional_info": ""
+    },
+    {
+        "reportBy": null,
+        "nThumbsUp": 1,
+        "country": "CI",
+        "city": "Santiago",
+        "type": "HAZARD",
+        "subtype": "HAZARD_ON_ROAD",
+        "street": "Nueva Centenario",
+        "reporRating": 1,
+        "reliability": 6,
+        "location": {
+            "longitude": -70.661375,
+            "latitude": -33.475715
+        },
+        "timestamp": 1732222367000,
+        "id": "alert-757562727/d213e6aa-67dc-4c2f-b105-8c0836417366",
+        "additional_info": ""
+    },
+    {
+        "reportBy": "Flakhito",
+        "nThumbsUp": null,
+        "country": "CI",
+        "city": null,
+        "type": "JAM",
+        "subtype": "JAM_STAND_STILL_TRAFFIC",
+        "street": "Acceso a Autopista Central > Sur",
+        "reporRating": 4,
+        "reliability": 5,
+        "location": {
+            "longitude": -70.660902,
+            "latitude": -33.433052
+        },
+        "timestamp": 1732222121000,
+        "id": "alert-757384877/cc12d338-9839-463b-be59-85fb0ce302c4",
+        "additional_info": ""
+    },
+    {
+        "reportBy": null,
+        "nThumbsUp": null,
+        "country": "CI",
+        "city": "San Miguel",
+        "type": "JAM",
+        "subtype": "",
+        "street": "Carlos Silva Vild\u00f3sola",
+        "reporRating": 0,
+        "reliability": 5,
+        "location": {
+            "longitude": -70.648049,
+            "latitude": -33.477632
+        },
+        "timestamp": 1732222366000,
+        "id": "alert-757761558/da49f635-e5d5-4b50-bdde-8a80ad767926",
+        "additional_info": ""
+    },
+    {
+        "reportBy": null,
+        "nThumbsUp": 4,
+        "country": "CI",
+        "city": null,
+        "type": "JAM",
+        "subtype": "JAM_HEAVY_TRAFFIC",
+        "street": "Autopista Central",
+        "reporRating": 1,
+        "reliability": 10,
+        "location": {
+            "longitude": -70.65775,
+            "latitude": -33.482256
+        },
+        "timestamp": 1732220084000,
+        "id": "alert-757107120/57141fb0-3b80-422b-998e-09aa2297734d",
+        "additional_info": ""
+    },
+    {
+        "reportBy": null,
+        "nThumbsUp": null,
+        "country": "CI",
+        "city": "Santiago",
+        "type": "JAM",
+        "subtype": "JAM_HEAVY_TRAFFIC",
+        "street": "Paso nivel acceso San Ignacio",
+        "reporRating": 2,
+        "reliability": 5,
+        "location": {
+            "longitude": -70.654562,
+            "latitude": -33.475636
+        },
+        "timestamp": 1732223279000,
+        "id": "alert-757916618/b9411a9d-e1d9-459f-8e93-1ae6b7dcc057",
+        "additional_info": ""
+    },
+    {
+        "reportBy": null,
+        "nThumbsUp": null,
+        "country": "CI",
+        "city": "Santiago",
+        "type": "ROAD_CLOSED",
+        "subtype": "",
+        "street": "Retorno > Oriente",
+        "reporRating": 1,
+        "reliability": 5,
+        "location": {
+            "longitude": -70.651258,
+            "latitude": -33.432699
+        },
+        "timestamp": 1732221505000,
+        "id": "alert-757595507/66341211-dcb0-4f1f-9feb-db892ea3ba25",
+        "additional_info": ""
+    },
+    {
+        "reportBy": null,
+        "nThumbsUp": null,
+        "country": "CI",
+        "city": "San Miguel",
+        "type": "JAM",
+        "subtype": "JAM_HEAVY_TRAFFIC",
+        "street": "Av. Carlos Valdovinos",
+        "reporRating": 0,
+        "reliability": 6,
+        "location": {
+            "longitude": -70.64481,
+            "latitude": -33.4803
+        },
+        "timestamp": 1732220943000,
+        "id": "alert-757049805/e2ad6de2-2416-413d-9dee-d6655d6c8f28",
+        "additional_info": ""
+    },
+    {
+        "reportBy": "world_vynnftwa",
+        "nThumbsUp": null,
+        "country": "CI",
+        "city": "Santiago",
+        "type": "JAM",
+        "subtype": "JAM_STAND_STILL_TRAFFIC",
+        "street": "Av. Manuel Rodr\u00edguez",
+        "reporRating": 3,
+        "reliability": 7,
+        "location": {
+            "longitude": -70.660501,
+            "latitude": -33.432114
+        },
+        "timestamp": 1732221570000,
+        "id": "alert-757348693/c0e5dd1a-a08e-48ac-9f34-3fb3de6d6c58",
+        "additional_info": ""
+    },
+    {
+        "reportBy": null,
+        "nThumbsUp": 7,
+        "country": "CI",
+        "city": "Santiago",
+        "type": "POLICE",
+        "subtype": "",
+        "street": "Padre Felipe G\u00f3mez de Vidaurre",
+        "reporRating": 0,
+        "reliability": 10,
+        "location": {
+            "longitude": -70.65599,
+            "latitude": -33.448078
+        },
+        "timestamp": 1732222945000,
+        "id": "alert-757733046/03ba8344-913b-4c86-b885-e0699a6f0078",
+        "additional_info": ""
+    },
+    {
+        "reportBy": null,
+        "nThumbsUp": 1,
+        "country": "CI",
+        "city": null,
+        "type": "JAM",
+        "subtype": "JAM_HEAVY_TRAFFIC",
+        "street": "Autopista Costanera Norte",
+        "reporRating": 2,
+        "reliability": 6,
+        "location": {
+            "longitude": -70.658709,
+            "latitude": -33.430002
+        },
+        "timestamp": 1732222441000,
+        "id": "alert-757484174/8d893ad7-ffdf-4ceb-9999-af76bd132fad",
+        "additional_info": ""
+    },
+    {
+        "reportBy": "RicardoSeguelDino",
+        "nThumbsUp": 1,
+        "country": "CI",
+        "city": null,
+        "type": "ACCIDENT",
+        "subtype": "",
+        "street": "Autopista Costanera Norte",
+        "reporRating": 3,
+        "reliability": 6,
+        "location": {
+            "longitude": -70.657058,
+            "latitude": -33.430514
+        },
+        "timestamp": 1732223065000,
+        "id": "alert-757901188/c4c2b998-9522-43ce-863e-aa15272de089",
+        "additional_info": ""
+    },
+    {
+        "reportBy": "world_b40iq10i",
+        "nThumbsUp": 1,
+        "country": "CI",
+        "city": "Santiago",
+        "type": "JAM",
+        "subtype": "JAM_HEAVY_TRAFFIC",
+        "street": "Santa Luc\u00eda",
+        "reporRating": 1,
+        "reliability": 6,
+        "location": {
+            "longitude": -70.644299,
+            "latitude": -33.439633
+        },
+        "timestamp": 1732223057000,
+        "id": "alert-757694870/009e933c-2756-4aa2-a891-f31009d0de33",
+        "additional_info": ""
+    },
+    {
+        "reportBy": null,
+        "nThumbsUp": null,
+        "country": "CI",
+        "city": null,
+        "type": "JAM",
+        "subtype": "JAM_HEAVY_TRAFFIC",
+        "street": "Autopista Central",
+        "reporRating": 0,
+        "reliability": 7,
+        "location": {
+            "longitude": -70.659948,
+            "latitude": -33.441691
+        },
+        "timestamp": 1732222604000,
+        "id": "alert-757781804/f45d6103-20e3-431f-9f75-beafe4f4588b",
+        "additional_info": ""
+    },
+    {
+        "reportBy": "Damian03Cool",
+        "nThumbsUp": null,
+        "country": "CI",
+        "city": "Santiago",
+        "type": "JAM",
+        "subtype": "JAM_STAND_STILL_TRAFFIC",
+        "street": "Av. Manuel Antonio Matta",
+        "reporRating": 3,
+        "reliability": 5,
+        "location": {
+            "longitude": -70.648319,
+            "latitude": -33.459297
+        },
+        "timestamp": 1732222652000,
+        "id": "alert-757856135/9a73a05a-9b3d-4def-bd85-65babb4edbff",
+        "additional_info": ""
+    },
+    {
+        "reportBy": null,
+        "nThumbsUp": 7,
+        "country": "CI",
+        "city": "Santiago",
+        "type": "POLICE",
+        "subtype": "",
+        "street": "Padre Alonso de Ovalle",
+        "reporRating": 0,
+        "reliability": 10,
+        "location": {
+            "longitude": -70.653093,
+            "latitude": -33.446263
+        },
+        "timestamp": 1732222044000,
+        "id": "alert-757561969/76326e6a-9ee0-43f8-ad7b-e72015b3f8df",
+        "additional_info": ""
+    },
+    {
+        "reportBy": "NoemyVidalC",
+        "nThumbsUp": null,
+        "country": "CI",
+        "city": "Recoleta",
+        "type": "JAM",
+        "subtype": "JAM_HEAVY_TRAFFIC",
+        "street": "Bellavista",
+        "reporRating": 4,
+        "reliability": 6,
+        "location": {
+            "longitude": -70.638416,
+            "latitude": -33.434689
+        },
+        "timestamp": 1732223430000,
+        "id": "alert-757941463/f8a87f5e-1cb9-47ec-9240-22563b2fbca1",
+        "additional_info": ""
+    },
+    {
+        "reportBy": "Pepe_Rojas10",
+        "nThumbsUp": null,
+        "country": "CI",
+        "city": "Santiago",
+        "type": "JAM",
+        "subtype": "JAM_HEAVY_TRAFFIC",
+        "street": "Teatinos",
+        "reporRating": 3,
+        "reliability": 5,
+        "location": {
+            "longitude": -70.655514,
+            "latitude": -33.438025
+        },
+        "timestamp": 1732223250000,
+        "id": "alert-757911579/6edab186-e017-44c8-9e21-fa260bb5bf79",
+        "additional_info": ""
+    },
+    {
+        "reportBy": "world_a42qcgqa",
+        "nThumbsUp": 5,
+        "country": "CI",
+        "city": "Recoleta",
+        "type": "POLICE",
+        "subtype": "",
+        "street": "P\u00edo Nono",
+        "reporRating": 0,
+        "reliability": 10,
+        "location": {
+            "longitude": -70.63545,
+            "latitude": -33.435338
+        },
+        "timestamp": 1732223143000,
+        "id": "alert-757911337/71242ccd-d6e4-421b-ae0e-43404f000b8c",
+        "additional_info": ""
+    },
+    {
+        "reportBy": null,
+        "nThumbsUp": 1,
+        "country": "CI",
+        "city": "San Miguel",
+        "type": "JAM",
+        "subtype": "JAM_STAND_STILL_TRAFFIC",
+        "street": "Av. Presidente Jos\u00e9 Joaqu\u00edn Prieto Vial",
+        "reporRating": 5,
+        "reliability": 6,
+        "location": {
+            "longitude": -70.661554,
+            "latitude": -33.491138
+        },
+        "timestamp": 1732221542000,
+        "id": "alert-757472401/b8d1a2c1-3680-4b36-b1ec-2e3cbb471e3f",
+        "additional_info": ""
+    },
+    {
+        "reportBy": "RichoonFer",
+        "nThumbsUp": 22,
+        "country": "CI",
+        "city": "Santiago",
+        "type": "HAZARD",
+        "subtype": "HAZARD_ON_SHOULDER_CAR_STOPPED",
+        "street": "Lira",
+        "reporRating": 3,
+        "reliability": 10,
+        "location": {
+            "longitude": -70.637654,
+            "latitude": -33.453946
+        },
+        "timestamp": 1732222500000,
+        "id": "alert-757766743/93014aa5-c8fc-481d-bf93-eed98eabab21",
+        "additional_info": ""
+    },
+    {
+        "reportBy": null,
+        "nThumbsUp": null,
+        "country": "CI",
+        "city": "Santiago",
+        "type": "JAM",
+        "subtype": "JAM_HEAVY_TRAFFIC",
+        "street": "Tarapac\u00e1",
+        "reporRating": 2,
+        "reliability": 5,
+        "location": {
+            "longitude": -70.651309,
+            "latitude": -33.447479
+        },
+        "timestamp": 1732221823000,
+        "id": "alert-757279672/30e0e2b1-f1dc-46cd-92d8-f4165487e7d6",
+        "additional_info": ""
+    },
+    {
+        "reportBy": null,
+        "nThumbsUp": null,
+        "country": "CI",
+        "city": "Santiago",
+        "type": "JAM",
+        "subtype": "JAM_STAND_STILL_TRAFFIC",
+        "street": "Marcoleta",
+        "reporRating": 2,
+        "reliability": 6,
+        "location": {
+            "longitude": -70.641851,
+            "latitude": -33.443088
+        },
+        "timestamp": 1732222015000,
+        "id": "alert-757725790/3ab0c9b0-b5d3-4eec-aa48-1692286024e6",
+        "additional_info": ""
+    }
+]
