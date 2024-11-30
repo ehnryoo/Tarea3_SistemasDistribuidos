@@ -50,7 +50,7 @@ class WazeSpider(scrapy.Spider):
         self.kafka_topic = 'incidente'
 
     def create_kafka_producer(self):
-        return Producer({'bootstrap.servers': 'kafka1:9092'})  # Dirección de tu Kafka en Docker
+        return Producer({'bootstrap.servers': 'localhost:9093'})  # Dirección de tu Kafka en Docker
 
     def delivery_report(self, err, msg):
         if err is not None:

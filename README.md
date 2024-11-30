@@ -9,7 +9,7 @@ Integrantes:
 
 [![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white&style=flat)](https://www.docker.com/)
 [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=flat)](https://www.python.org/)
-[![Static Badge](https://img.shields.io/badge/Apache%20Kafka-black?logo=apachekafka)](https://kafka.apache.org/documentation/)
+[![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-black?logo=apachekafka)](https://kafka.apache.org/documentation/)
 
 
 ## Instrucciones de uso
@@ -17,16 +17,13 @@ Integrantes:
 En la terminal utilizar los siguientes comandos:
 
 ```bash
- git clone https://github.com/ehnryoo/Tarea2_SistemasDistribuidos
+ git clone https://github.com/ehnryoo/Tarea3_SistemasDistribuidos
 ```
-Desde la carpeta T1_Sistema_Distribuidos, levantar los contenedores y arrancar la API
+Desde la carpeta Tarea3_SistemasDistribuidos, levantar los contenedores.
 ```bash
 docker-compose up --build
 ```
-Para iniciar el servidor gRPC y generar compras
+Para iniciar el scraper, dirigerse a la carpeta waze_scraper y ejecutar el siguiente comando.
 ```bash
-python server.py
-```
-```bash
-python generar_compra.py
+scrapy crawl waze
 ```

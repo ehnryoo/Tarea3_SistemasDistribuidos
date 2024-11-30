@@ -2,7 +2,7 @@ from confluent_kafka.admin import AdminClient, NewTopic
 
 def create_kafka_topic(topic_name, num_partitions, replication_factor):
     admin_client = AdminClient({
-        'bootstrap.servers': 'kafka1:9092'
+        'bootstrap.servers': 'localhost:9093'
     })
 
     topic_list = [NewTopic(topic_name, num_partitions, replication_factor)]
@@ -16,5 +16,5 @@ def create_kafka_topic(topic_name, num_partitions, replication_factor):
             print(f"Fallo al crear el tópico '{topic}': {e}")
 
 if __name__ == "__main__":
-    create_kafka_topic(topic_name="incidente", num_partitions=1, replication_factor=1)
+    create_kafka_topic(topic_name="Incidente", num_partitions=1, replication_factor=1)
 
