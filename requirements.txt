@@ -3,3 +3,6 @@ confluent_kafka
 pyspark
 elasticsearch
 cassandra-driver
+spark-sql-kafka
+elasticsearch-spark
+spark-cassandra-connector

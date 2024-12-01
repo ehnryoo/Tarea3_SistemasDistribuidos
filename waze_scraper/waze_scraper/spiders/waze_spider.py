@@ -2,44 +2,6 @@ import scrapy
 import json
 from confluent_kafka import Producer
 
-"""
-class WazeSpider(scrapy.Spider):
-    name = 'waze'
-    start_urls = ['https://www.waze.com/live-map/api/georss?top=-33.41928726949335&bottom=-33.49207127879792&left=-70.66214847564699&right=-70.63258838653566&env=row&types=alerts,traffic,users']  # URL inicial, ajústala según sea necesario
-
-    def __init__(self, *args, **kwargs):
-        super().__init__(*args, **kwargs)
-        self.incidents = []
-
-    def parse(self, response):
-        incidents = response.json().get("alerts", [])
-
-        for incident in incidents:
-            data = {
-                "reportBy": incident.get("reportBy"),
-                "nThumbsUp": incident.get("nThumbsUp"),
-                "country": incident.get("country"),
-                "city": incident.get("city"),
-                "type": incident.get("type"),
-                "subtype": incident.get("subtype"),
-                "street": incident.get("street"),
-                "reporRating": incident.get("reportRating"),
-                "reliability": incident.get("reliability"),
-                "location": {
-                    "longitude": incident["location"].get("x"),
-                    "latitude": incident["location"].get("y")
-                },
-                "timestamp": incident.get("pubMillis"),
-                "id": incident.get("id"),
-                "additional_info": incident.get("additionalInfo")
-            }
-            self.incidents.append(data)
-
-        with open('alerts.json', 'w') as f:
-            json.dump(self.incidents, f, indent=4)
-"""
-
-
 class WazeSpider(scrapy.Spider):
     name = 'waze'
     start_urls = ['https://www.waze.com/live-map/api/georss?top=-33.41928726949335&bottom=-33.49207127879792&left=-70.66214847564699&right=-70.63258838653566&env=row&types=alerts,traffic,users']
