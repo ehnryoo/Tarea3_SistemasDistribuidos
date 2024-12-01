@@ -13,7 +13,9 @@ services:
       - '8080:8080'
       - '7077:7077'
     networks:
-      - app-network
+      - spark-net
+      - kafka-net
+      - elastic-net
 
   spark-worker:
     image: docker.io/bitnami/spark:3.5
@@ -27,10 +29,20 @@ services:
       - SPARK_LOCAL_STORAGE_ENCRYPTION_ENABLED=no
       - SPARK_SSL_ENABLED=no
       - SPARK_USER=spark
+      - SPARK_WORKER_WEBUI_PORT=8081
+    ports:
+      - '8082:8081'
     depends_on:
       - spark
     networks:
-      - app-network
+      - spark-net
+      - kafka-net
+      - elastic-net
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8081"]
+      interval: 5s
+      timeout: 3s
+      retries: 3
 
   zookeeper:
     image: bitnami/zookeeper:3.9.1
@@ -39,6 +51,8 @@ services:
       ALLOW_ANONYMOUS_LOGIN: 'yes'
     ports:
       - "2181:2181"
+    networks:
+      - kafka-net
 
   kafka1:
     image: bitnami/kafka:3.7.0
@@ -57,6 +71,8 @@ services:
       - "9093:9093"
     volumes:
       - kafka_data1:/bitnami/kafka
+    networks:
+      - kafka-net
 
   kafka-ui:
     image: provectuslabs/kafka-ui:latest
@@ -68,32 +84,43 @@ services:
       KAFKA_CLUSTERS_0_NAME: local
       KAFKA_CLUSTERS_0_BOOTSTRAPSERVERS: kafka1:9092
       KAFKA_CLUSTERS_0_ZOOKEEPER: zookeeper:2181
+    networks:
+      - kafka-net
 
   elasticsearch:
-    image: docker.elastic.co/elasticsearch/elasticsearch:8.2.0
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.17.5
     environment:
       - discovery.type=single-node
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
     ports:
       - "9200:9200"
+    networks:
+      - elastic-net
 
   kibana:
-    image: docker.elastic.co/kibana/kibana:8.2.0
+    image: docker.elastic.co/kibana/kibana:7.17.5
     depends_on:
       - elasticsearch
     environment:
       - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
     ports:
       - "5601:5601"
+    networks:
+      - elastic-net
 
-  cassandra: 
-    image: cassandra:latest 
-    ports: 
-      - "9042:9042" 
-    networks: 
-      - app-network
+  #cassandra: 
+  #  image: cassandra:latest 
+  #  ports: 
+  #    - "9042:9042" 
+  #  networks: 
+  #    - app-network
 
 networks:
-  app-network:
+  spark-net:
+    driver: bridge
+  kafka-net:
+    driver: bridge
+  elastic-net:
     driver: bridge
 
 volumes:

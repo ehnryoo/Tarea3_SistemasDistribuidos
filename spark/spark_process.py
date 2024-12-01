@@ -1,6 +1,9 @@
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import from_json, col
 from pyspark.sql.types import StructType, StructField, StringType, DoubleType, LongType
+from elasticsearch import Elasticsearch
+from cassandra.cluster import Cluster
+import json
 
 # Esquema de los datos en Kafka
 schema = StructType([
@@ -33,7 +36,7 @@ spark = SparkSession.builder \
 kafka_df = spark.readStream \
     .format("kafka") \
     .option("kafka.bootstrap.servers", "localhost:9093") \
-    .option("subscribe", "Incidente") \
+    .option("subscribe", "incidente") \
     .load()
 
 # Procesar datos de Kafka
@@ -48,17 +51,22 @@ filtered_df = parsed_df.filter(col("reportRating") >= 3)
 cassandra_writer = filtered_df.writeStream \
     .format("org.apache.spark.sql.cassandra") \
     .option("keyspace", "waze") \
-    .option("table", "incidents") \
+    .option("table", "incidente") \
     .outputMode("append") \
     .start()
 
 # Escribir datos filtrados en Elasticsearch
 elasticsearch_writer = filtered_df.writeStream \
     .format("org.elasticsearch.spark.sql") \
-    .option("es.nodes", "localhost") \
-    .option("es.resource", "waze/incident") \
+    .option("es.nodes", "elasticsearch") \
+    .option("es.port", "9200") \
+    .option("es.resource", "waze/incidente") \
     .outputMode("append") \
     .start()
 
 # Esperar a que finalicen los procesos
 spark.streams.awaitAnyTermination()
+
+
+# COMANDO:
+# spark-submit --master local[2] --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.5.3,org.elasticsearch:elasticsearch-spark-30_2.12:8.1.0,com.datastax.spark:spark-cassandra-connector_2.12:3.4.0 spark_process.py

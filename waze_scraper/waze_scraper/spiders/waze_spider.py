@@ -4,7 +4,7 @@ from confluent_kafka import Producer
 
 class WazeSpider(scrapy.Spider):
     name = 'waze'
-    start_urls = ['https://www.waze.com/live-map/api/georss?top=-33.41928726949335&bottom=-33.49207127879792&left=-70.66214847564699&right=-70.63258838653566&env=row&types=alerts,traffic,users']
+    start_urls = ['https://www.waze.com/live-map/api/georss?top=-28.95223069110065&bottom=-38.24013023063891&left=-72.55041503906251&right=-68.76672363281251&env=row&types=alerts']
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
@@ -12,7 +12,7 @@ class WazeSpider(scrapy.Spider):
         self.kafka_topic = 'incidente'
 
     def create_kafka_producer(self):
-        return Producer({'bootstrap.servers': 'localhost:9093'})  # Dirección de tu Kafka en Docker
+        return Producer({'bootstrap.servers': 'localhost:9093'})
 
     def delivery_report(self, err, msg):
         if err is not None:

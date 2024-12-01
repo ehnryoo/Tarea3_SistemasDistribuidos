@@ -1,7 +1,8 @@
+from cassandra.io.asyncio import AsyncioConnection
 from cassandra.cluster import Cluster
 
 def setup_cassandra():
-    cluster = Cluster(['localhost'])
+    cluster = Cluster(['localhost'], connection_class=AsyncioConnection)
     session = cluster.connect()
 
     session.execute("""
@@ -12,7 +13,6 @@ def setup_cassandra():
         }
     """)
 
-    # Crear una tabla
     session.execute("""
         CREATE TABLE IF NOT EXISTS waze.incidents (
             id TEXT PRIMARY KEY,
@@ -36,3 +36,4 @@ def setup_cassandra():
 
 if __name__ == "__main__":
     setup_cassandra()
+
