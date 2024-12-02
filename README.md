@@ -42,3 +42,5 @@ Luego de enviados los mensajes a los tópicos, inicializar Spark dentro de la ca
 ```bash
 spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.5.0,org.elasticsearch:elasticsearch-spark-30_2.12:7.17.5,com.datastax.spark:spark-cassandra-connector_2.12:3.1.0 spark_process.py
 ```
+
+Ya con los datos consumidos y procesados, es posible acceder a Kibana para analizar los incidents y jams. A través de la URL localhost:5061
