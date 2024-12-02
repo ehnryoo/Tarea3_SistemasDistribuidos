@@ -25,7 +25,7 @@ En la terminal utilizar los siguientes comandos:
 
 Desde la carpeta Tarea3_SistemasDistribuidos, levantar los contenedores.
 ```bash
-docker-compose up --build
+docker-compose up -d
 ```
 
 Primero iniciar los tópicos para el Kafka, dirigirse a la carpeta /kafka.
