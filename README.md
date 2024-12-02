@@ -19,15 +19,26 @@ Integrantes:
 ## Instrucciones de uso
 
 En la terminal utilizar los siguientes comandos:
-
 ```bash
  git clone https://github.com/ehnryoo/Tarea3_SistemasDistribuidos
 ```
+
 Desde la carpeta Tarea3_SistemasDistribuidos, levantar los contenedores.
 ```bash
 docker-compose up --build
 ```
-Para iniciar el scraper, dirigerse a la carpeta waze_scraper y ejecutar el siguiente comando.
+
+Primero iniciar los tópicos para el Kafka, dirigirse a la carpeta /kafka.
+```bash
+python createTopic.py
+```
+
+Para iniciar el scraper, dirigerse a la carpeta /waze_scraper y ejecutar el siguiente comando.
 ```bash
 scrapy crawl waze
+```
+
+Luego de enviados los mensajes a los tópicos, inicializar Spark dentro de la carpeta /spark.
+```bash
+spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.5.0,org.elasticsearch:elasticsearch-spark-30_2.12:7.17.5,com.datastax.spark:spark-cassandra-connector_2.12:3.1.0 spark_process.py
 ```
