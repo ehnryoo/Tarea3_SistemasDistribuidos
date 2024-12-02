@@ -16,6 +16,7 @@ services:
       - spark-net
       - kafka-net
       - elastic-net
+      - cassandra-net
 
   spark-worker:
     image: docker.io/bitnami/spark:3.5
@@ -38,11 +39,7 @@ services:
       - spark-net
       - kafka-net
       - elastic-net
-    healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:8081"]
-      interval: 5s
-      timeout: 3s
-      retries: 3
+      - cassandra-net
 
   zookeeper:
     image: bitnami/zookeeper:3.9.1
@@ -108,12 +105,14 @@ services:
     networks:
       - elastic-net
 
-  #cassandra: 
-  #  image: cassandra:latest 
-  #  ports: 
-  #    - "9042:9042" 
-  #  networks: 
-  #    - app-network
+  cassandra: 
+    image: cassandra:latest 
+    ports: 
+      - "9042:9042"
+    volumes:
+      - cassandra_data1:/cassandra
+    networks: 
+      - cassandra-net
 
 networks:
   spark-net:
@@ -122,7 +121,11 @@ networks:
     driver: bridge
   elastic-net:
     driver: bridge
+  cassandra-net:
+    driver: bridge
 
 volumes:
   kafka_data1:
+    driver: local
+  cassandra_data1:
     driver: local

@@ -4,7 +4,7 @@ from confluent_kafka import Producer
 
 class WazeSpider(scrapy.Spider):
     name = 'waze'
-    start_urls = ['https://www.waze.com/live-map/api/georss?top=-28.95223069110065&bottom=-38.24013023063891&left=-72.55041503906251&right=-68.76672363281251&env=row&types=alerts']
+    start_urls = ['https://www.waze.com/live-map/api/georss?top=-33.169490403827595&bottom=-33.75172616844491&left=-70.7432327270508&right=-70.46060943603517&env=row&types=alerts,traffic']
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
@@ -60,3 +60,9 @@ class WazeSpider(scrapy.Spider):
     def close(self, reason):
         self.kafka_producer.flush()
         self.logger.info("Kafka Producer cerrado.")
+
+# COMANDO:
+# scrapy crawl waze
+
+# COMANDO PARA LOPP:
+# while ($true) {scrapy crawl waze;  Start-Sleep -Seconds 15}
