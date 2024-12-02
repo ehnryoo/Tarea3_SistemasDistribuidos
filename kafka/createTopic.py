@@ -16,5 +16,6 @@ def create_kafka_topic(topic_name, num_partitions, replication_factor):
             print(f"Fallo al crear el tópico '{topic}': {e}")
 
 if __name__ == "__main__":
-    create_kafka_topic(topic_name="incidente", num_partitions=1, replication_factor=1)
+    create_kafka_topic(topic_name="incidents", num_partitions=1, replication_factor=1)
+    create_kafka_topic(topic_name="jams", num_partitions=1, replication_factor=1)
 
